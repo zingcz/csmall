@@ -17,6 +17,7 @@ dubbo:
     address: nacos://localhost:8848  # 表示当前Dubbo的注册中心类型是Nacos,地址是后面的内容
   consumer:
     check: false # 设置false表示服务启动时,不检查标定的可调用的远程服务是否存在,避免报错
+
 seata:
   tx-service-group: csmall_group # 分组
   service:
